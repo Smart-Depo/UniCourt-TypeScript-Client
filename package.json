@@ -16,13 +16,6 @@
   "license": "Unlicense",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.js"
-    }
-  },
-  "typings": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc && cp package.json ./dist/",
     "prepare": "npm run build"
